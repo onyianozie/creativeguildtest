@@ -1,20 +1,4 @@
 
-// window.onload = function(){
-
-//     let http = new XMLHttpRequest();
-
-//     http.onreadystatechange = function(){
-
-//         if(http.readyState == 4 && http.status == 200){
-//             console.log(JSON.parse(http.response));
-//         }
-//     };
-
-//     http.open("GET", "./landscapes.json", true);
-//     http.send();
-// };
-// 
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -41,8 +25,10 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", "landscapes.json", true);
 xhttp.send();
-        {/* <img src="${album[i].img}" alt=""></img> */}
-          // <h4 src="${[i].title}" alt=""></h4>
-          // <p src="${album[i].description}" alt=""></p>
-          // <p src="${album[i].date}" alt=""></p>
-          // <p src="${album[i].featured}" alt=""></p>
+
+
+        // {/* <img src="${album[i].img}" alt=""></img> */}
+        //   // <h4 src="${[i].title}" alt=""></h4>
+        //   // <p src="${album[i].description}" alt=""></p>
+        //   // <p src="${album[i].date}" alt=""></p>
+        //   // <p src="${album[i].featured}" alt=""></p>
